@@ -1,0 +1,28 @@
+# Basic navigation
+pwd           # Show current directory
+ls            # List files and directories
+cd directory  # Change directory
+cd ..         # Go up one directory
+
+# File operations
+touch file.txt    # Create empty file
+mkdir folder      # Create directory
+rm file.txt      # Delete file
+rm -r folder     # Delete directory
+cp file1 file2   # Copy file
+mv file1 file2   # Move/rename file
+
+# View file contents
+cat file.txt     # Display file content
+less file.txt    # View file with pagination
+head file.txt    # Show first 10 lines
+tail file.txt    # Show last 10 lines
+
+# Common utilities
+clear           # Clear screen
+echo "text"     # Print text
+date            # Show current date/time
+
+# Help
+man command     # Show manual for command
+command --help  # Show help for command
